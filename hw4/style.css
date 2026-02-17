@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://cdn.imgchest.com/files/l4necm53l4m.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+
+
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.container > * {
+  background-color: lightblue;
+  font-size: 10rem;
+  color: blue;
+  border: 2px dashed blue;
+
+  flex-shrink: 1;
+  flex-grow: 1;
+  height: 199.1px;
+}
+
+.box1{
+  flex-basis: 1400px;
+}
+
+.box2{
+  flex-basis: 400px;
+}
+
+.box3{
+  flex-basis: 800px;
+}
+
+.box4, .box5, .box6{
+  flex-basis: calc(33.333% - 10px);
+}
