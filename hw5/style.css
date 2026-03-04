@@ -19,6 +19,7 @@ body {
 .box4 .image { background-image: url("https://unsplash.it/500/200?4"); }
 .box5 .image { background-image: url("https://unsplash.it/800/200?5"); }
 
+
 .container {
     display: flex;
     gap: 1rem;
@@ -49,10 +50,9 @@ ul > * {
 .info {
     display: flex;
     flex-direction: column;
-    height: 300px;
     flex: 1;
+    min-height: 300px;
     padding: 1rem;
-    overflow: hidden;
 }
 
 .box3 > .info {
