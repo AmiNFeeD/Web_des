@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 9</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <button class="buttonMenu">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <img class="targetImage"
+       src="https://cdn.imgchest.com/files/my2pcobve7j.png"
+       alt="target reference">
+
+  <div class="container">
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+
+    <div class="box3">
+      <ul>
+        <li class="categories">Категории</li>
+        <li class="delivery">Доставка</li>
+        <li class="payment">Оплата</li>
+        <li class="reviews">Отзывы</li>
+        <li class="regions">Отправка в регионы</li>
+        <li class="consolidation">Консолидированная доставка</li>
+        <li class="contacts">Контакты</li>
+      </ul>
+    </div>
+
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+    <div class="box6">6</div>
+    <div class="box7">7</div>
+  </div>
+
+  <script>
+    const buttonMenu = document.querySelector('.buttonMenu');
+    const menu = document.querySelector('.box3');
+
+    buttonMenu.addEventListener('click', function () {
+      menu.classList.toggle('mobileMenu');
+    });
+  </script>
+</body>
+</html>
