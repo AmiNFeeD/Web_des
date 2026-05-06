@@ -19,22 +19,22 @@ body {
   transform: translateX(-50%);
   width: 1159px;
   z-index: 999;
-  opacity: 0.35;
+  opacity: 0;
   pointer-events: none;
 }
 
 .switchButton {
   position: fixed;
-  top: 44px;
+  top: 8px;
   left: 8px;
-  z-index: 2000;
+  z-index: 9999;
   background: #ff5a1f;
   color: white;
   border: none;
-  padding: 4px 9px;
-  font-size: 11px;
+  padding: 6px 12px;
+  font-size: 13px;
   cursor: pointer;
-  opacity: .45;
+  opacity: 1;
 }
 
 .container {

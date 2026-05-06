@@ -34,9 +34,9 @@ body {
 
 .switchButton {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 2000;
+  top: 8px;
+  left: 8px;
+  z-index: 9999;
   background: var(--orange);
   color: #fff;
   border: 0;
@@ -562,8 +562,9 @@ body {
   }
 
   .switchButton {
-    position: static;
-    margin: 8px;
+    position: fixed;
+    top: 8px;
+    left: 8px;
   }
 
   .container {
